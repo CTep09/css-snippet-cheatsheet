@@ -1,4 +1,8 @@
-<<<<<<< HEAD
+
+body {
+    display: flex;
+    margin: 0;
+}
 
 header { 
     display: flex;
@@ -6,26 +10,13 @@ header {
     font-size: larger;
     background-color: rgba(189, 228, 180, 0.461);
     z-index: 2;
-=======
-body {
-    display: flex;
-    margin: 0;
->>>>>>> d45fe260ae7054dc2d97341228d418309550a784
 }
-
 .card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 200px;
     height: 200px;
     border: 3px dotted green;
     padding: 50px;
-<<<<<<< HEAD
-    margin: 20px;
-=======
     margin: 0 auto;
->>>>>>> d45fe260ae7054dc2d97341228d418309550a784
 }
 .snippet {
     width: 300px;
