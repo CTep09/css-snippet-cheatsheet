@@ -1,16 +1,17 @@
 
-body {
+main {
     display: flex;
     margin: 0;
+    flex-wrap: wrap;
 }
 
 header { 
-    display: flex;
     padding: 1%;
     font-size: larger;
     background-color: rgba(189, 228, 180, 0.461);
     z-index: 2;
 }
+
 .card {
     width: 200px;
     height: 200px;
@@ -18,15 +19,17 @@ header {
     padding: 50px;
     margin: 0 auto;
 }
+
 .snippet {
-    width: 300px;
+    width: 250px;
     border: 3px solid black;
     background: yellowgreen;
     background: linear-gradient(180deg, rgb(222, 221, 181) 0%, rgb(152, 195, 155) 35%, rgba(0,212,255,1) 100%);
     font-family: monospace;
     color: gray
 }
+
 .snippet p
 {
-    margin:0
+    margin: 0;
 }
