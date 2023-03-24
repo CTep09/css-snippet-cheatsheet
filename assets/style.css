@@ -1,6 +1,14 @@
 .card {
     width: 300px;
-    border: 15px solid green;
+    border: 3px dotted green;
     padding: 50px;
     margin: 20px;
+    display: flex;
+}
+
+header {
+    display: flex;
+    padding: 1%;
+    font-size: larger;
+    background-color: rgba(189, 228, 180, 0.461);
 }
