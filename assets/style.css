@@ -49,6 +49,8 @@ header {
     height: 50px;
     width: 200px;
     background-color:rgb(220, 236, 198) ;
+    border-radius: 20px;
+    box-shadow: 5px 5px black;
     z-index: 2;
     position: relative;
     top: -12px;
