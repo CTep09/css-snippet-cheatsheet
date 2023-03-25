@@ -21,7 +21,7 @@ header {
 }
 
 .snippet {
-    width: 250px;
+    width: 200px;
     border: 3px solid black;
     background: yellowgreen;
     background: linear-gradient(180deg, rgb(222, 221, 181) 0%, rgb(152, 195, 155) 35%, rgba(0,212,255,1) 100%);
@@ -29,7 +29,7 @@ header {
     color: gray
 }
 
-.snippet p
+.snippet pre
 {
     margin: 0;
 }
