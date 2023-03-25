@@ -31,7 +31,8 @@ header {
     background: yellowgreen;
     background: linear-gradient(180deg, rgb(222, 221, 181) 0%, rgb(152, 195, 155) 35%, rgba(0,212,255,1) 100%);
     font-family: monospace;
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
+    user-select: all;
 }
 
 pre {
