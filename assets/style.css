@@ -36,7 +36,7 @@ header {
     background: yellowgreen;
     background: linear-gradient(180deg, var(--first-color)  0%, var(--second-color) 35%, var(--third-color) 100%);
     font-family: monospace;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     user-select: all;
 }
 
