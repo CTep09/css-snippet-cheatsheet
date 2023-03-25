@@ -31,17 +31,23 @@ header {
     padding: 50px;
     margin: 30px 30px; 
 }
+.card h3
+{
+    font-size: 15px;
+    margin: 0;
+}
 .card-title{
     height: 50px;
     width: 200px;
-    border: 3px solid rgb(220, 236, 198);
     background-color:rgb(220, 236, 198) ;
     z-index: 2;
     position: relative;
     top:-80px;
+    margin:0;
 }
 
 .snippet {
+
     width: 200px;
     border: 3px solid black;
     background: yellowgreen;
@@ -49,6 +55,7 @@ header {
     font-family: monospace;
     color: rgb(0, 0, 0);
     user-select: all;
+    margin-top: 15px;
 }
 
 pre {
