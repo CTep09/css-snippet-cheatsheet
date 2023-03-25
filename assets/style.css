@@ -21,6 +21,7 @@ header {
 }
 
 .snippet {
+
     width: 200px;
     border: 3px solid black;
     background: yellowgreen;
@@ -29,7 +30,15 @@ header {
     color: gray
 }
 
-.snippet pre
-{
-    margin: 0;
+pre {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
 }
+    
+code {
+    font-family: Courier, 'New Courier', monospace;
+    font-size: 11px;
+}
+    
